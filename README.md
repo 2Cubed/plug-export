@@ -20,7 +20,7 @@ Move or copy your `PLUG_PLAYLISTS.json` file to the directory of the `export-sou
 4. Wait for PYE to do its magic, and you're done!
 
 ### YouTube
-1. 1. Run the `export-youtube.py` file, included in this repository, with Python 3.4+.
+1. Run the `export-youtube.py` file, included in this repository, with Python 3.4+.
 2. You will be prompted to choose one of the existing playlists. Type in the playlist's name *exactly*, and press enter.
 3. Assuming everything worked properly, you should receive a confirmation that everything worked properly, and that `PYE_YOUTUBE.json` has been created. If an error appears, please ensure that `PLUG_PLAYLISTS.json` is in this directory, and that the playlist inputted exists and was spelled properly (with correct capitalization).
 4. Go to [the PYE site](http://pye.sq10.net/), click on the box shown, select your `PYE_YOUTUBE.json` file, and you're good to go! Make sure to authenticate YouTube when prompted to, but don't worry about SoundCloud - it isn't included at all in this file.
