@@ -11,6 +11,7 @@ final_playlists = {}
 try:
     playlist = input("Which playlist would you like to export? {playlists} ".format(
         playlists='/'.join(['['+pl+']' for pl in plug['playlists'].keys()])))
+    plug['playlists'][playlist]
 except KeyError:
     exit("Unknown playlist.")
 
