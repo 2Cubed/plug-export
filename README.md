@@ -8,10 +8,10 @@ This repository contains two scripts, each of which pulls a specific type of son
 ## Use
 
 ### ~~Obtaining `PLUG_PLAYLISTS.json` from PYE~~
-It is no longer possible to obtain a new `PLUG_PLAYLISTS.json` file, as plug.dj has been officially shut down already. The rest of this tutorial assumes that you already have a `PLUG_PLAYLISTS.json` file.
+It is no longer possible to obtain a new `PLUG_PLAYLISTS.json` file, as plug.dj has been officially shut down already. The rest of this tutorial assumes that you already have a `PLUG_PLAYLISTS.json` file from PYE.
 
 ### Including `PLUG_PLAYLISTS.json`
-Move or copy your `PLUG_PLAYLISTS.json` file to the directory of this downloaded repository.
+Move or copy your `PLUG_PLAYLISTS.json` file to the directory of the `export-soundcloud.py` and `export-youtube.py` scripts.
 
 ### SoundCloud
 1. Run the `export-soundcloud.py` file, included in this repository, with Python 3.4+.
